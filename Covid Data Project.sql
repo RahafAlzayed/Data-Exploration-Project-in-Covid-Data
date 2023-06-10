@@ -2,9 +2,9 @@ Select *
 From Project1..CovidDeaths$
 Order by 3,4
 
---Select * 
---From Project1..CovidVaccinations$
---Order by 3,4
+Select * 
+From Project1..CovidVaccinations$
+Order by 3,4
 
 Select location, date, total_cases, new_cases, total_deaths, population
 From Project1..CovidDeaths$
